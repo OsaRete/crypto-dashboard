@@ -28,12 +28,16 @@ A modern cryptocurrency dashboard built with JavaScript and Vite that displays r
 npm install
 npm run dev
 
-📡 API
+## 🌐 Live Demo
+
+https://crypto-dashboard-lake-rho.vercel.app
+
+## 📡 API
 
 This project uses the public CoinGecko API:
 
 https://www.coingecko.com/en/api
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Ernesto Cedeño
