@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>crypto-dashboard</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="app">
+      <header class="header">
+        <h1 class="logo">Crypto Dashboard</h1>
+        <div class="controls">
+          <input type="text" id="search" placeholder="Buscar moneda..." class="search-input">
+
+          <select id="currency" class="currency-select">
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+          </select>
+
+          <select id="limit" class="limit-select">
+            <option value="50">Top 50</option>
+            <option value="100">Top 100</option>
+          </select>
+        </div>
+      </header>
+
+      <section class="status">
+        <div id="market-cap" class="stat-card">Market Cap: --</div>
+        <div id="24h-volume" class="stat-card">24h Volume: --</div>
+        <div id="btc-dominance" class="stat-card">BTC Dominance; --</div>
+      </section>
+
+      <div class="msg" id="mensajes"></div>
+
+      <section class="table-section">
+        <table class="crypto-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Coins</th>
+              <th>Price</th>
+              <th>24h %</th>
+              <th>Market Cap</th>
+            </tr>
+          </thead>
+          <tbody id="crypto-body">
+
+          </tbody>
+        </table>
+      </section>
+    </div> 
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
