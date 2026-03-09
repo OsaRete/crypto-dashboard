@@ -1,3 +1,7 @@
+## Live Demo
+
+[View the app on Vercel](https://crypto-dashboard-lake-rho.vercel.app)
+
 # Crypto Dashboard
 
 A modern cryptocurrency dashboard built with JavaScript and Vite that displays real-time market data using the CoinGecko API.
